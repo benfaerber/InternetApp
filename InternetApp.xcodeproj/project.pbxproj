@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		59675AC423C6584200BE0B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AC323C6584200BE0B17 /* AppDelegate.swift */; };
 		59675AC623C6584200BE0B17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AC523C6584200BE0B17 /* SceneDelegate.swift */; };
-		59675AC823C6584200BE0B17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AC723C6584200BE0B17 /* ViewController.swift */; };
 		59675ACB23C6584200BE0B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59675AC923C6584200BE0B17 /* Main.storyboard */; };
 		59675ACD23C6584200BE0B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59675ACC23C6584200BE0B17 /* Assets.xcassets */; };
-		59675AD023C6584200BE0B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59675ACE23C6584200BE0B17 /* LaunchScreen.storyboard */; };
 		59675ADB23C6584200BE0B17 /* InternetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675ADA23C6584200BE0B17 /* InternetAppTests.swift */; };
 		59675AE623C6584300BE0B17 /* InternetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AE523C6584300BE0B17 /* InternetAppUITests.swift */; };
 /* End PBXBuildFile section */
@@ -38,10 +36,8 @@
 		59675AC023C6584200BE0B17 /* InternetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59675AC323C6584200BE0B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59675AC523C6584200BE0B17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		59675AC723C6584200BE0B17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59675ACA23C6584200BE0B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59675ACC23C6584200BE0B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		59675ACF23C6584200BE0B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59675AD123C6584200BE0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59675AD623C6584200BE0B17 /* InternetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InternetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59675ADA23C6584200BE0B17 /* InternetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetAppTests.swift; sourceTree = "<group>"; };
@@ -99,13 +95,9 @@
 		59675AC223C6584200BE0B17 /* InternetApp */ = {
 			isa = PBXGroup;
 			children = (
-				59675AC323C6584200BE0B17 /* AppDelegate.swift */,
-				59675AC523C6584200BE0B17 /* SceneDelegate.swift */,
-				59675AC723C6584200BE0B17 /* ViewController.swift */,
-				59675AC923C6584200BE0B17 /* Main.storyboard */,
-				59675ACC23C6584200BE0B17 /* Assets.xcassets */,
-				59675ACE23C6584200BE0B17 /* LaunchScreen.storyboard */,
-				59675AD123C6584200BE0B17 /* Info.plist */,
+				59675AF523C6588200BE0B17 /* View */,
+				59675AF423C6587B00BE0B17 /* Controller */,
+				59675AF323C6587200BE0B17 /* Resources */,
 			);
 			path = InternetApp;
 			sourceTree = "<group>";
@@ -126,6 +118,32 @@
 				59675AE723C6584300BE0B17 /* Info.plist */,
 			);
 			path = InternetAppUITests;
+			sourceTree = "<group>";
+		};
+		59675AF323C6587200BE0B17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59675AC323C6584200BE0B17 /* AppDelegate.swift */,
+				59675AC523C6584200BE0B17 /* SceneDelegate.swift */,
+				59675ACC23C6584200BE0B17 /* Assets.xcassets */,
+				59675AD123C6584200BE0B17 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		59675AF423C6587B00BE0B17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59675AF523C6588200BE0B17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59675AC923C6584200BE0B17 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59675AD023C6584200BE0B17 /* LaunchScreen.storyboard in Resources */,
 				59675ACD23C6584200BE0B17 /* Assets.xcassets in Resources */,
 				59675ACB23C6584200BE0B17 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59675AC823C6584200BE0B17 /* ViewController.swift in Sources */,
 				59675AC423C6584200BE0B17 /* AppDelegate.swift in Sources */,
 				59675AC623C6584200BE0B17 /* SceneDelegate.swift in Sources */,
 			);
@@ -303,14 +319,6 @@
 				59675ACA23C6584200BE0B17 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		59675ACE23C6584200BE0B17 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				59675ACF23C6584200BE0B17 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -435,7 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InternetApp/Info.plist;
+				INFOPLIST_FILE = InternetApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InternetApp/Info.plist;
+				INFOPLIST_FILE = InternetApp/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
