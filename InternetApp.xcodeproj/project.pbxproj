@@ -14,6 +14,7 @@
 		59675ADB23C6584200BE0B17 /* InternetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675ADA23C6584200BE0B17 /* InternetAppTests.swift */; };
 		59675AE623C6584300BE0B17 /* InternetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AE523C6584300BE0B17 /* InternetAppUITests.swift */; };
 		59675AF723C6597300BE0B17 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AF623C6597300BE0B17 /* InternetMasterViewController.swift */; };
+		59675B3523C65BEA00BE0B17 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675B3423C65BEA00BE0B17 /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		59675AE523C6584300BE0B17 /* InternetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetAppUITests.swift; sourceTree = "<group>"; };
 		59675AE723C6584300BE0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59675AF623C6597300BE0B17 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
+		59675B3423C65BEA00BE0B17 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				59675AF623C6597300BE0B17 /* InternetMasterViewController.swift */,
+				59675B3423C65BEA00BE0B17 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59675B3523C65BEA00BE0B17 /* InternetDetailViewController.swift in Sources */,
 				59675AC423C6584200BE0B17 /* AppDelegate.swift in Sources */,
 				59675AF723C6597300BE0B17 /* InternetMasterViewController.swift in Sources */,
 				59675AC623C6584200BE0B17 /* SceneDelegate.swift in Sources */,

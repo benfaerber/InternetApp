@@ -26,6 +26,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let navigationController = splitViewController.viewControllers.last as? UINavigationController,
             let currentDetailViewController = navigationController.topViewController as? InternetDetailViewController
         else {return}
+        
+        currentDetailViewController.navigationItem.leftItemsSupplementBackButton = true
+        currentDetailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        
+        masterViewController.delegate = currentDetailViewController
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
