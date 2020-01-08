@@ -15,6 +15,9 @@
 		59675AE623C6584300BE0B17 /* InternetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AE523C6584300BE0B17 /* InternetAppUITests.swift */; };
 		59675AF723C6597300BE0B17 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675AF623C6597300BE0B17 /* InternetMasterViewController.swift */; };
 		59675B3523C65BEA00BE0B17 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59675B3423C65BEA00BE0B17 /* InternetDetailViewController.swift */; };
+		59675B3923C66B2A00BE0B17 /* huckfinn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59675B3823C66B2A00BE0B17 /* huckfinn.pdf */; };
+		59675B3B23C66B3000BE0B17 /* awfulgerman.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59675B3A23C66B3000BE0B17 /* awfulgerman.pdf */; };
+		59675B3D23C66B3500BE0B17 /* tomsawyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 59675B3C23C66B3500BE0B17 /* tomsawyer.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		59675AE723C6584300BE0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59675AF623C6597300BE0B17 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		59675B3423C65BEA00BE0B17 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		59675B3823C66B2A00BE0B17 /* huckfinn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = huckfinn.pdf; sourceTree = "<group>"; };
+		59675B3A23C66B3000BE0B17 /* awfulgerman.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = awfulgerman.pdf; sourceTree = "<group>"; };
+		59675B3C23C66B3500BE0B17 /* tomsawyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = tomsawyer.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		59675AF323C6587200BE0B17 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				59675B3C23C66B3500BE0B17 /* tomsawyer.pdf */,
+				59675B3A23C66B3000BE0B17 /* awfulgerman.pdf */,
+				59675B3823C66B2A00BE0B17 /* huckfinn.pdf */,
 				59675AC323C6584200BE0B17 /* AppDelegate.swift */,
 				59675AC523C6584200BE0B17 /* SceneDelegate.swift */,
 				59675ACC23C6584200BE0B17 /* Assets.xcassets */,
@@ -256,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59675B3B23C66B3000BE0B17 /* awfulgerman.pdf in Resources */,
+				59675B3923C66B2A00BE0B17 /* huckfinn.pdf in Resources */,
 				59675ACD23C6584200BE0B17 /* Assets.xcassets in Resources */,
 				59675ACB23C6584200BE0B17 /* Main.storyboard in Resources */,
+				59675B3D23C66B3500BE0B17 /* tomsawyer.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

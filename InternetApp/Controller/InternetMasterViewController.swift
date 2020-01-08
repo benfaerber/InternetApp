@@ -29,16 +29,16 @@ class InternetMasterViewController : UITableViewController {
         ]
         
         files = [
-            "demo",
-            "demo",
-            "demo"
+            "tomsawyer",
+            "awfulgerman",
+            "huckfinn"
         ]
         
         // This should have the same as files
         pdfTopics = [
-            "Defined internet terms",
-            "Essay on the impact of the Internet",
-            "Article from techn news"
+            "Tom Sawyer",
+            "The Awful German Languge",
+            "Huckleberry Finn"
         ]
         
         // Hint: same number of entries as internetTopics
