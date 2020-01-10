@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import WebKit
+import PDFKit
 
 class InternetMasterViewController : UITableViewController {
     weak var delegate : InternetDetailDelegate?
@@ -15,7 +17,7 @@ class InternetMasterViewController : UITableViewController {
     private lazy var internetTopics : [String] = [String]()
     private lazy var addresses : [String] = [String]()
     private lazy var files : [String] = [String]()
-    private let rowIdentifer : String = "internetRow"
+    private let rowIdentifer : String = "derp"
     
     //MARK:- Helper method for setup
     private func setupDetailContents() -> Void
@@ -78,11 +80,16 @@ class InternetMasterViewController : UITableViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        print("grrrrrrr")
+        print(self.tableView.visibleCells.count)
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: rowIdentifer, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "derp", for: indexPath)
         cell.textLabel?.textAlignment = .center
-        
+
         if (indexPath.section == 0)
         {
             cell.textLabel?.text = pdfTopics[indexPath.row]
@@ -92,7 +99,7 @@ class InternetMasterViewController : UITableViewController {
             cell.textLabel?.text = internetTopics[indexPath.row]
         }
         
-        return cell
+        return UITableViewCell()
     }
     
     //MARK:- Handle interaction with the tableview

@@ -23,35 +23,6 @@
             </objects>
             <point key="canvasLocation" x="1057.9710144927537" y="59.598214285714285"/>
         </scene>
-        <!--CSP Internet App-->
-        <scene sceneID="FBz-S3-5EH">
-            <objects>
-                <tableViewController clearsSelectionOnViewWillAppear="NO" id="nnB-NX-kan" customClass="InternetMasterViewController" customModule="InternetApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wu1-rX-kYt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="internetRow" id="9BJ-cM-Qui">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9BJ-cM-Qui" id="Alb-eY-qaR">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="nnB-NX-kan" id="YMm-S0-Pww"/>
-                            <outlet property="delegate" destination="nnB-NX-kan" id="Ig3-Xi-Vcu"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="CSP Internet App" id="rvK-26-Qjo"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rM7-QT-FZe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1084" y="-591"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="b2Y-VO-5bt">
             <objects>
@@ -61,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="nnB-NX-kan" kind="relationship" relationship="rootViewController" id="DbL-h2-7q8"/>
+                        <segue destination="YfP-ek-Wka" kind="relationship" relationship="rootViewController" id="bhc-hO-NIy"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNv-pH-pH3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -98,6 +69,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aps-Z4-hyd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="147.82608695652175" y="59.598214285714285"/>
+        </scene>
+        <!--Internet Master View Controller-->
+        <scene sceneID="z0L-IY-0MV">
+            <objects>
+                <tableViewController id="YfP-ek-Wka" customClass="InternetMasterViewController" customModule="InternetApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sMb-vq-Vdo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="derp" id="OpT-lr-Avc">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OpT-lr-Avc" id="s3y-1X-xZa">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="YfP-ek-Wka" id="PVa-BI-iUM"/>
+                            <outlet property="delegate" destination="YfP-ek-Wka" id="guR-nk-riS"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WhB-Mb-nd6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dJ-v0-98a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="-593"/>
         </scene>
     </scenes>
 </document>

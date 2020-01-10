@@ -19,14 +19,16 @@ class InternetDetailViewController: UIViewController, InternetDetailDelegate {
     
     var currentDetailTitle : String?
     {
-        didSet{
+        didSet
+        {
             updateView()
         }
     }
     
     var currentDetailAddress : String?
     {
-        didSet {
+        didSet
+        {
             updateView()
         }
     }
